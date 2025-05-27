@@ -7,9 +7,19 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:provider/provider.dart';
+import 'package:wix_fivver/features/auth/presentation/sign-in.dart';
+import 'package:wix_fivver/features/flutter_data_table_screen/presentation/data_screen.dart';
+import 'package:wix_fivver/features/flutter_data_table_screen/presentation/flutter_data_table_screen.dart';
+import 'package:wix_fivver/features/image_picker/presentation/image_picker_screen.dart';
+import 'package:wix_fivver/features/practice/chat_data_screen.dart';
+import 'package:wix_fivver/features/practice/message_screen.dart';
+import 'package:wix_fivver/features/presentation/create_job_screen.dart';
+import 'package:wix_fivver/features/presentation/home_screen.dart';
+import 'package:wix_fivver/features/presentation/price_analysis_screen.dart';
+import 'package:wix_fivver/features/user_side/presentation/job_preview_screen.dart';
 import '/helpers/all_routes.dart';
 import 'constants/app_constants.dart';
-import 'features/practice/message_screen.dart';
+import 'features/engineers_side/presentation/personal_info_screen.dart';
 import 'gen/colors.gen.dart';
 import 'helpers/di.dart';
 import 'helpers/helper_methods.dart';
@@ -109,7 +119,7 @@ class UtillScreenMobile extends StatelessWidget {
             navigatorKey: NavigationService.navigatorKey,
             onGenerateRoute: RouteGenerator.generateRoute,
 
-            home:  const MessageChat()),
+            home:    PersonalInfoScreen ()),
         );
       },
     );

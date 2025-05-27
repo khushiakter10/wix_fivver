@@ -6,7 +6,6 @@ import 'package:wix_fivver/constants/text_font_style.dart';
 import 'package:wix_fivver/gen/assets.gen.dart';
 import 'package:wix_fivver/gen/colors.gen.dart';
 import 'package:wix_fivver/helpers/ui_helpers.dart';
-
 import 'chat_data_screen.dart';
 
 
@@ -121,6 +120,8 @@ class _MessageChatState extends State<MessageChat> {
               hinStyle: TextFontStyle.headline16c475569poppinsw500,
             ),
             UIHelper.verticalSpace(16.h),
+
+
             Expanded(
               child: ListView.separated(
                 padding: EdgeInsets.zero,
