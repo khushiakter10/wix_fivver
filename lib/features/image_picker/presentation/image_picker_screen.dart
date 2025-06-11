@@ -5,7 +5,7 @@ class ImagePickerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Image Picker Screen")),
-      body: SingleChildScrollView( // This allows scrolling if content overflows
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,

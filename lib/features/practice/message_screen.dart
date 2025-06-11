@@ -3,10 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:wix_fivver/common_widget/user_side_custom_text_formfield.dart';
 import 'package:wix_fivver/constants/text_font_style.dart';
+import 'package:wix_fivver/features/practice/widget/chart_widget.dart';
 import 'package:wix_fivver/gen/assets.gen.dart';
 import 'package:wix_fivver/gen/colors.gen.dart';
 import 'package:wix_fivver/helpers/ui_helpers.dart';
-import 'chat_data_screen.dart';
+
 
 
 class MessageChat extends StatefulWidget {

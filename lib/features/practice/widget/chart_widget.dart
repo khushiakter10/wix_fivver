@@ -29,7 +29,6 @@ class _ChatDataScreenState extends State<ChatDataScreen> {
     if (text.isNotEmpty) {
       setState(() {
         messages.add({'text': text, 'isUser': false});
-        // Simulated user reply after your message
         Future.delayed(const Duration(seconds: 1), () {
           setState(() {
             messages.add({'text': 'Thanks for your message!', 'isUser': true});
